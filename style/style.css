@@ -208,6 +208,8 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+
+
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
@@ -268,6 +270,8 @@ html{
     right: -15px;
     font-size: 14px;
 }
+
+
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
     width: 0%;
@@ -358,6 +362,11 @@ html{
     0%{width: 0%;}
     100%{width: 94%;}
 }
+
+.cv a{
+    text-decoration: none;
+} 
+
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
@@ -590,7 +599,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
